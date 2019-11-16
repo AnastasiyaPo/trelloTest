@@ -1,0 +1,38 @@
+$max-width: 1020px;
+$color-dark: #282c34;
+$color-light: white;
+$color-average: #c4cbd3;
+
+  .form {
+
+    border: 1px solid $color-dark;
+    margin-bottom: 10px;
+
+    &__header {
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    &__trackers,
+    &__input-text,
+    &__date,
+    &__attachment {
+      padding: 10px;
+    }
+
+    &__trackers > label,
+    &__date > label {
+      cursor: pointer;
+    }
+    &__textarea {
+      width: 100%;
+    }
+    &__button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid $color-dark;
+      background: $color-light;
+      cursor: pointer;
+    }
+  }

@@ -1,0 +1,23 @@
+$max-width: 1300px;
+$color-dark: #282c34;
+$color-light: white;
+$color-average: #c4cbd3;
+
+.board {
+  width: 0.8 * $max-width;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+
+  &__title {
+    padding: 25px 0 0 0;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .lists {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+}
